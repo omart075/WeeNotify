@@ -6,25 +6,27 @@ WeeNotifyMatrix displays a Mac OS X notification whenever a message is received 
 ![Alt text](/weeNotifyPic.png?raw=true "Script in Action")
 
 # Instructions for Use:
-  **1. Make sure you have the following installed:**
-  ```
-      - WeeChat (https://weechat.org/)
-      - Matrix (https://github.com/torhve/weechat-matrix-protocol-script/blob/master/README.md) 
-      - Terminal-Notifier (https://github.com/julienXX/terminal-notifier)
-  ```   
-  **2. Clone this repo:**
+  1. Make sure you have the following installed:
+      * [WeeChat](https://weechat.org/)
+      * [Matrix](https://github.com/torhve/weechat-matrix-protocol-script/blob/master/README.md) 
+      * [Terminal-Notifier](https://github.com/julienXX/terminal-notifier)
+      
+  2. Clone this repo:
   ```     
     git clone https://github.com/omart075/WeeNotifyMatrix.git    
   ``` 
-  **3. Move script to WeeChat's Python Directory:**
+  3. Move script to WeeChat's Python Directory:
+  
   ```
     mv weeNotify.py ~/.weechat/python
   ```  
-  **4. Go into WeeChat's autoload directory for Python:**
+  4. Go into WeeChat's autoload directory for Python:
+  
   ```
     cd ~/.weechat/python/autoload
   ```  
-  **5. Make a link to script from Weechat's Python dir to WeeChat's autoload dir:**
+  5. Make a link to script from Weechat's Python dir to WeeChat's autoload dir:
+  
   ```
     ln -s ../weeNotify.py
   ```
