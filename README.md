@@ -1,7 +1,7 @@
-# WeeNotify
-WeeNotify is a Mac OS X plugin for Matrix, a chat protocal for WeeChat, a CLI chat client. 
+# WeeNotifyMatrix
+WeeNotifyMatrix is a Mac OS X plugin for Matrix, a chat protocol for WeeChat, a CLI chat client. 
 
-WeeNotify displays a Mac OS X notification whenever a message is received on any chat you have on WeeChat.
+WeeNotifyMatrix displays a Mac OS X notification whenever a message is received on any chat you have on WeeChat.
 
 ![Alt text](/weeNotifyPic.png?raw=true "Script in Action")
 
@@ -14,7 +14,7 @@ WeeNotify displays a Mac OS X notification whenever a message is received on any
   ```   
   **2. Clone this repo:**
   ```     
-    git clone https://github.com/omart075/WeeNotify.git    
+    git clone https://github.com/omart075/WeeNotifyMatrix.git    
   ``` 
   **3. Move script to WeeChat's Python Directory:**
   ```
