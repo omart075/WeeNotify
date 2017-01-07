@@ -7,7 +7,7 @@ WeeNotifyMatrix displays a Mac OS X notification whenever a message is received 
 
 # Instructions for Use:
   1. Make sure you have the following installed:
-      * [WeeChat](https://weechat.org/)
+      * [WeeChat](https://weechat.org/files/doc/weechat_faq.en.html#compile_osx)
       * [Matrix](https://github.com/torhve/weechat-matrix-protocol-script/blob/master/README.md) 
       * [Terminal-Notifier](https://github.com/julienXX/terminal-notifier)
       
